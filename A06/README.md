@@ -42,11 +42,11 @@ After creating a Comfy account, you can click on the "Try Cloud for free" button
 
 ### Extra notes
 
-Some models require a paid commercial license to use. Some model outputs are subject to a specific copyright license and consequently are sometimes not egible for commercial use*. Each model has it's own distinct rules for the instructions it can take, the ouptuts it can create, and more. Reading the terms of service and specifications of the models you wish to use in your ComfyUI workflows before implementation is strongly recommended.
+Some models require a paid commercial license to use. Some model outputs are subject to a specific copyright license and consequently are sometimes not egible for commercial use*. Each model has its own distinct rules for the instructions it can take, the ouptuts it can create, and more. Reading the terms of service and specifications of the models you wish to use in your ComfyUI workflows before implementation is strongly recommended.
 
-*All models available to use on Comfy Cloud are cleared for commercial use.
+*All pre-installed models available to use on Comfy Cloud are cleared for commercial use.
 
-For those who wish to use Comfy Cloud. After creating an account, you can perform 5 output generations for free. After that, you will have to pay for one of the three monthly single user plans (Standard (18$), Creator (28$) and Pro (80$)) or a Team plan (630$) for a team collaborating on a single workflow. If you decide to opt for a Creator, Pro or Team plan, you gain access to the ability to import your own models if the model you wish to use isn't already within Comfy's library.
+For those who wish to use Comfy Cloud. After creating an account, you can perform 5 output generations for free. After that, you will have to pay for one of the three monthly single user plans (Standard (18$), Creator (28$) and Pro (80$)) or a Team plan (630$) for a team collaborating on a single workflow. If you decide to opt for a Creator, Pro or Team plan, you gain access to the ability to import your own models from either HugginFace or Civitai, if the model you wish to use isn't already within Comfy's library. Comfy Desktop in comparison can import models from outside HugginFace or Civitai. But implementation, custom nodes, and troubleshooting will have to be done by yourself.
 
 
 ### Extra: Pipeline Diagram
@@ -58,6 +58,10 @@ For those who wish to use Comfy Cloud. After creating an account, you can perfor
 -ComfyUI Official Website
 Comfy-Org. (n.d.).
 https://comfy.org/
+
+-ComfyUI Official Documentation
+Comfy-Org. (n.d.).
+https://docs.comfy.org/
 
 -Snyk Labs, Onitza-Klugman, R., McNamara, R., & Ward, E. (2024, December 16). Don’t get too comfortable: Hacking ComfyUI through custom nodes. Snyk Labs. 
 https://labs.snyk.io/resources/hacking-comfyui-through-custom-nodes/
